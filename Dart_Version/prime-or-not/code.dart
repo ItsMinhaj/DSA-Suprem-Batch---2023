@@ -8,6 +8,7 @@ void main(List<String> args) {
   for (int i = 2; i <= n / 2; i++) {
     if (n % i == 0) {
       status = 0;
+      break;
     } else {
       status = 1;
     }
